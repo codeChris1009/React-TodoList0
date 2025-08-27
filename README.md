@@ -43,6 +43,6 @@ src/
 - CSS3
   </br>
 
-## 畫面 展示
+## 畫面展示
 
 ![Todo List 畫面展示](/public/display0.png)
