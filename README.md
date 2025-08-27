@@ -1,14 +1,42 @@
-# React + Vite
+# React Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+這是一個使用 **React** 和 **Vite** 製作的 Todo List 專案，具備現代化卡片 UI，支援任務的新增、編輯、刪除與完成狀態切換。
 
-Currently, two official plugins are available:
+## 功能特色
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 新增待辦事項
+- 編輯、刪除任務
+- 點擊任務可切換完成狀態
+- 現代卡片式設計，支援響應式
+- 使用 React Hooks 管理狀態
 
-## Expanding the ESLint configuration
+## 專案結構
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+	components/
+		CreateForm.jsx   // 新增任務表單
+		EditForm.jsx     // 編輯任務表單
+		Todo.jsx         // 單一任務元件
+		TodoWrapper.jsx  // 任務列表與邏輯
+	App.jsx
+	App.css
+```
 
-test
+## 如何啟動
+
+1. 安裝依賴
+   ```
+   npm install
+   ```
+2. 啟動開發伺服器
+   ```
+   npm run dev
+   ```
+
+## 技術棧
+
+- React 19
+- Vite
+- React Icons
+- CSS3
