@@ -67,7 +67,7 @@ function TodoWrapper() {
   };
 
   // Title
-  const title = "todo list";
+  const title = "todo l1ist";
 
   return (
     <div className="wrapper">
