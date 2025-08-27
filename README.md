@@ -1,6 +1,7 @@
 # React Todo List
 
-這是一個使用 **React** 和 **Vite** 製作的 Todo List 專案，具備現代化卡片 UI，支援任務的新增、編輯、刪除與完成狀態切換。
+這是一個使用 **React** 和 **Vite** 製作的 Todo List 專案</br>
+具備 **現代化** **neon** 卡片 UI，支援任務的新增、編輯、刪除與完成狀態切換
 
 ## 功能特色
 
