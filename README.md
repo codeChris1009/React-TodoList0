@@ -41,3 +41,7 @@ src/
 - Vite
 - React Icons
 - CSS3
+
+## 畫面展示
+
+![Todo List 畫面展示](/public/display0.png)
