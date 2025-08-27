@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+  color: #7cff8c;
+  letter-spacing: 0.2em;
+}
+
+.wrapper {
+  width: 450px;
+  margin-top: 200px;
+  text-align: center;
+  border-radius: 1rem;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  transition: all 0.3s;
+}
+
+.wrapper-inner {
+  width: 100%;
+  padding: 30px;
+  background-color: #121212;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.wrapper-inner:hover {
+  transform: scale(0.98);
+  border-radius: 1rem;
+}
+
+.wrapper:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+}
+
+.create-form {
+  height: 40px;
+  width: 88%;
+  margin: 25px auto;
+  border: 3px solid #6be17c;
+  border-radius: 0.4rem;
+  display: flex;
+}
+.create-form > input {
+  outline: none;
+  border: none;
+  background: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+}
+.create-form > button {
+  border: none;
+  background-color: #6be17c;
+  color: white;
+  font-weight: bolder;
+  width: 50px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.todo {
+  background-image: linear-gradient(144deg, #00ff75 0%, #3700ff 100%);
+  font-weight: bold;
+  color: rgb(68, 68, 68);
+  height: 40px;
+  padding: 0 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  opacity: 0.4;
+  background-color: #413eda;
+  text-decoration: line-through 3px #ff6483;
+}
